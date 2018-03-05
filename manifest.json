@@ -7,12 +7,10 @@
         "matches": [
           "<all_urls>"
         ],
-        "js": ["index.js"]
+        "js": ["main.js"]
       }
     ],
-    "background": {
-      "scripts": ["background.js"]
-    },
+    
     "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'",
 
     "permissions": ["tabs"],
