@@ -1,16 +1,14 @@
-
-function setup() {
-    createCanvas(inner, height);
-    background(155);
+var x =10;
+var y = 10;
+function setup(){
+    createCanvas(windowWidth, windowHeight);
+    background(0);
+    
 }
 function draw(){
-    ellipse(x, y, 80, 80);
-    x = x + 1;
-    y =y +1;
-    if (x < innerWidth){
-        x -1;
-    }
-    if ( y < innerHeight){
-        y -1;
-    }
+    ellipse(x, y, 50, 50);
+    x = x+1;
+    y = y+1;
+    
+   
 }
