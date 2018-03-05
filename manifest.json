@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "definer",
+    "name": "musify",
     "version": "1.0",
     "content_scripts": [
       {
@@ -15,9 +15,8 @@
 
     "permissions": ["tabs"],
     "browser_action": {
-      "default_icon": "icon.png",
-      "default_popup": "main/index.html",
-      "default_title": "definer"
+     
+      "default_title": "musify"
     },
     "web_accessible_resources": ["./lib/p5.min.js","./lib/p5.dom.min.js","./lib/p5.sound.min.js"]
 
