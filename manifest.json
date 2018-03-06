@@ -7,19 +7,19 @@
         "matches": [
           "<all_urls>"
         ],
-        "js": ["index.js"]
+        "js": ["./lib/p5.min.js","./lib/p5.dom.min.js","./lib/p5.sound.min.js","index.js"]
       }
     ],
     "permissions":[
       "tabs","activeTab"
     ],
     
-    "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'",
-
+    
+   
     "browser_action": {
      
       "default_title": "musify"
-    },
-    "web_accessible_resources": ["lib/p5.min.js","lib/p5.dom.min.js","lib/p5.sound.min.js","main.js"]
+    }
+    
 
   }
