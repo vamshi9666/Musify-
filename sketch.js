@@ -40,6 +40,6 @@ function draw() {
     });
 }
 else{
-  console.log("song si snull")
+  console.log("song is null")
 }
 }

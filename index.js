@@ -18,9 +18,3 @@ function draw() {
     ellipse(width / 2, height / 2, vol * 800);
 
 }
-chrome.storage.local.set({
-    kitten: { name: "Mog", eats: "mice" },
-    monster: { name: "Kraken", eats: "people" }
-
-});
-localStorage.setItem('favoriteflavor','vanilla');
