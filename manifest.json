@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Music Player",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": "ct.png",
+        "default_popup": "index.html",
+        "default_title": "Press The Addon and Happy Music"
+    }
+}
