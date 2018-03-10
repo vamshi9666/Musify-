@@ -1,0 +1,54 @@
+.main-con{
+	border-radius: 25px;
+	
+	display: flex;
+	flex-direction: column;
+	background-color: #222760;
+	align-content: center;
+	align-self: center;
+	margin: 2%;
+
+}
+.input{
+	padding: 15px;
+	align-content: center;
+	align-self: center;
+	margin: 50px;
+	background-color: #f7f7f7
+
+
+}
+.list{
+	background-color: #808080;
+	max-width: 1000px;
+	align-content: center;
+	align-self: center;
+	margin: 3%;
+	display: flex;
+	flex-direction: row;
+	
+
+
+}
+.head{
+	font-size: 50px;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	margin: 25px;
+	align-items: center;
+
+}
+.sound{
+	align-self: center;
+
+
+}
+.header{
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	margin: 25px;
+	align-items: center;
+
+}

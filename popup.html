@@ -1,37 +1,32 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>basic</title>
+	<title>Musify</title>
+	<link rel="stylesheet" type="text/css" href="popup.css">
 
-	<script src="./lib/p5.min.js"></script>
-	<script src="./lib/p5.dom.js"></script>
-	<script src="./lib/p5.sound.js"></script>
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
 	<script src="sketch.js"></script>
 
-	<style>
-		body {
-			margin:0;
-			padding:0;
-			overflow: hidden;
-		}
-		canvas {
-			margin:auto;
-		}
-		#dropzone{
-		   padding: 24px;
-		   border-style: dashed;
-		   width: 50%;
-		   font-size: 36pt;
-		}
 
-	</style>
 </head>
-<body>
-		<input type="file" id="songs" multiple>
-		<audio controls id="myAudio" autoplay></audio> 
+
+<body class="">
+	<h1 class="head">Musify</h1>
+	<h5 class="header">musify your web</h5>
+	<hr/>
+	<div class="main-con">
+		<input class="input" type="file" id="songs" multiple>
+		<audio class="sound" controls src="" id="myAudio" autoplay></audio>
+		<ol class="list" id="list"></ol>
+	</div>
+
 </body>
+
 </html>
