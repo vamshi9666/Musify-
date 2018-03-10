@@ -13,7 +13,7 @@
     "permissions":[
       "tabs","activeTab"
     ],
-    "background":{
+    "backg round":{
       "scripts":["bg.js"]
       
     },
