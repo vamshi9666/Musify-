@@ -2,7 +2,7 @@ var mic;
 
 
 function windowResized() {
-    resizeCanvas();
+    c = resizeCanvas();
 }
 function setup() {
     let c = createCanvas(windowWidth, windowHeight);
