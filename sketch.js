@@ -29,7 +29,7 @@ function draw() {
       len = files.length;
       if (len) {
         next(_next);
-        chrome.runtime.sendMessage(files);
+        console.log("song should start")
       }
     });
     myAudio.addEventListener("ended", function () {
